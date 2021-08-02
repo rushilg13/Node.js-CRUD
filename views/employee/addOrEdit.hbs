@@ -1,0 +1,29 @@
+<h3>{{ viewTitle }}</h3>
+
+<form autocomplete="off" method="POST" action="/employee">
+    <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" class="form-control" name="fullName" placeholder="Full Name">
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" name="email" placeholder="employee@company.com">
+    </div>
+
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label for="mobile">Mobile</label>
+            <input type="tel" class="form-control" name="mobile" placeholder="9999999999">
+        </div>
+
+        <div class="form-group col-md-6">
+            <label for="city">City</label>
+            <input type="text" class="form-control" name="city" placeholder="City Name">
+        </div>
+    </div>
+    <br>
+    <div class="form-group">
+        <button type="submit" class="btn btn-success"> <i class="fa fa-database"></i> Submit </button>
+    </div>
+</form>
