@@ -35,8 +35,7 @@ router.get('/list', (req, res) => {
         } else {
             console.error("Error in retriving records " + err);
         }
-    })
+    }).lean();
 })
 
-module.exports = router;
 module.exports = router;
